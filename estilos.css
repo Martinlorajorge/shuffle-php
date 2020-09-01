@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+
+header {
+	height:290px;
+	margin: 0;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:950px;
+	/* height:70px; */
+	border-left: 10px solid #80C141;
+	background-color:#FFF;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:2px dotted #CCC;
+	width: 184px;
+	height: 70px;
+	line-height: 70px;
+	
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#80C141;
+	}
+	
+#marca {
+	background-image:url(imagenes/fondo_marca.jpg);
+	height:200px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+
+	}
+
+#contenido {
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	
+	
+	}
+
+
+	
+
+	#img_nos{
+		width: 300px;
+		float: right;
+		height: 400px;
+		margin-top: 0;
+	}
+	#img_nos img{
+		width: 100% ;
+	}
+
+	#datos_nos{
+		margin-top: 0;
+		width: 600px;
+		height: 400px;
+		float: left;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+
+
+h2 {
+	color:#666;}
+
+footer {
+	background-color:#80C141;
+	padding:20px;
+	border-left: 20px solid #333;
+	
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+
+	/* catalogo.php   nav */
+
+	#botonera_principal1{
+		width:950px;
+		/* height:70px; */
+		border-left: 10px solid #80C141;
+		background-color:#FFF;
+		}
+	
+	#botonera_principal1 ul {
+		margin:0;
+		padding:0;
+		list-style-type:none;}
+	
+	#botonera_principal1 ul li {
+		display: inline;
+	}
+	
+	#botonera_principal1 ul li a {
+		display: inline-block;
+		color:#333;
+		text-decoration:none;
+		text-align: center;
+		border-right:2px dotted #CCC;
+		width: 184px;
+		height: 70px;
+		line-height: 70px;
+		
+		}
+		
+	#botonera_principal1 ul li a:hover {
+		background-color:#80C141;
+		}
+
+		#producto{
+			height:70px;
+			margin: 0;
+		}
+	
+
+
+		#conimg{
+			margin-left: 5px;
+		}
