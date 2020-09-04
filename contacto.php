@@ -20,8 +20,15 @@
     </header>
     <section id="contenido">
     <h2>Contáctenos</h2>
-
-   
+    <form action="#" method="post"></form>
+    <ul>
+    <li><input type="text" name="nombre" id="" placeholder="Nombre" required></li>
+    <li><input type="text" name="apellido" id="" placeholder="Apellido" required></li>
+    <li><input type="email" name="" id="" placeholder="Email" required></li>
+    <li><input type="number" name="edad" id="" min="16" max="110" placeholder="Edad"></li>
+    <li><input type="date" name="fecha_nacimiento" id="" placeholder="Fecha de Nacimiento"></li>
+    <li><textarea name="consulta" id="" cols="30" rows="10" placeholder="Consulta..."></textarea></li>
+    </ul>   
     </section>
 
 <footer>
